@@ -1,0 +1,57 @@
+Lesson 3 - Data Transformation with Power Query (Part 1)
+
+Q: What is the purpose of the ‘Applied Steps’ pane in Power Query? A:
+The ‘Applied Steps’ pane records each transformation applied to the
+data. It allows users to track, edit, or remove steps in the data
+transformation process.
+
+Q: How do you remove duplicate rows in Power Query? A: Go to Home →
+Remove Rows → Remove Duplicates.
+
+Q: What does the ‘Filter’ icon do in Power Query? A: The Filter icon
+allows you to filter rows in a column based on values or conditions.
+
+Q: How would you rename a column from ‘CustID’ to ‘CustomerID’? A:
+Double-click the column name and type ‘CustomerID’, or right-click and
+select ‘Rename’.
+
+Q: What happens if you click ‘Close & Apply’ in Power Query? A: All
+transformations are saved and applied, and the data is loaded back into
+Power BI.
+
+Q: Remove all rows where Quantity is less than 2. A: Apply a filter on
+the Quantity column to keep only rows where Quantity >= 2.
+
+Q: Split the OrderDate column into separate ‘Year,’ ‘Month,’ and ‘Day’
+columns. A: Select OrderDate → Transform → Split Column → By Delimiter
+or use Date → Year/Month/Day options.
+
+Q: Replace all ‘Mouse’ entries in the Product column with ‘Computer
+Mouse.’ A: Select the Product column → Right-click → Replace Values →
+Replace ‘Mouse’ with ‘Computer Mouse’.
+
+Q: Sort the table by OrderDate (newest first). A: Select the OrderDate
+column → Sort Descending.
+
+Q: How would you handle null values in the Price column? A: Options:
+Replace null with 0, filter out null values, or fill values depending on
+the context.
+
+Q: Write custom M-code to add a column calculating TotalSpent =
+Quantity * Price. A: Add Column → Custom Column with formula:
+[Quantity] * [Price].
+
+Q: Group the table by CustID to show total spending per customer. A: Go
+to Home → Group By → Group by CustID → Aggregate TotalSpent (Sum).
+
+Q: Fix inconsistent date formats (e.g., 01/10/2023 vs. 2023-01-10) in
+OrderDate. A: Change Data Type of OrderDate column to Date, ensuring
+consistent format.
+
+Q: Create a conditional column: Label orders as ‘High Value’ if Price >
+100. A: Go to Add Column → Conditional Column → If [Price] > 100 then
+‘High Value’ else ‘Normal’.
+
+Q: Optimize the query to reduce refresh time (e.g., remove unused
+columns early). A: Remove unnecessary columns at the start of the
+transformation process to optimize performance.
