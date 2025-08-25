@@ -1,0 +1,18 @@
+Lesson 6 – Creating Basic Visualizations & Adding Interactivity to Visuals (Nazariy javoblar)
+
+1. Name three types of visuals you can create in Power BI.
+   → Bar chart, Column chart, Line chart.
+
+2. How do you add a slicer to a report?
+   → Visualizations paneldan "Slicer" ni tanlab, kerakli field (masalan Quarter) ni qo‘shasiz.
+
+3. What is the difference between a bar chart and a column chart?
+   → Bar chart – ma’lumotlar gorizontal ko‘rinishda chiqadi.
+     Column chart – ma’lumotlar vertikal ko‘rinishda chiqadi.
+
+4. How do you change the color of a visual background?
+   → Visual tanlanadi → Format panel (Paint roller belgisi) → Background → rangni tanlash.
+
+5. What does "drill-down" mean in a visual?
+   → Drill-down – bu ierarxiya ichida chuqurlashib, yuqori darajadagi ma’lumotdan pastki darajaga o‘tish 
+     (masalan, Region → Product → Quarter).
