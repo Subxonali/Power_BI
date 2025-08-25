@@ -1,0 +1,27 @@
+Lesson 5 – Data Modeling Basics (Nazariy javoblar)
+
+1. What is a primary key in a table?
+   → Primary key – bu jadvaldagi har bir satrni noyob qilib ajratib turuvchi ustun 
+     (masalan, Customer jadvalidagi CustomerID).
+
+2. Name the two types of table relationships in Power BI.
+   → One-to-Many (1:*), Many-to-Many (*:*).
+
+3. What is a "star schema"?
+   → Star schema – bu bitta markaziy fact jadval (odatda Sales) va uning atrofida dimension jadvallari 
+     (Customer, Product, Date) bo‘ladigan model.
+
+4. Which table is typically the fact table in a sales dataset?
+   → Sales jadvali fact table hisoblanadi.
+
+5. Why is ProductID in Sales.csv a foreign key?
+   → Chunki u Products jadvalidagi Primary key (ProductID)ga bog‘lanadi va shu orqali mahsulot ma’lumotlari 
+     Sales jadvaliga ulanadi.
+
+6. Explain why a star schema improves performance.
+   → Chunki jadval tuzilishi sodda, filtrlash tez ishlaydi, murakkab joinlardan qutiladi 
+     va xotira samaraliroq foydalaniladi.
+
+7. Use bidirectional filtering sparingly—when is it appropriate?
+   → Faqat juda zarur bo‘lganda, masalan, ko‘p-jadvalli ko‘rsatkichlarni hisoblashda 
+     yoki "many-to-many" vaziyatlarda bidirectional filtering ishlatiladi.
