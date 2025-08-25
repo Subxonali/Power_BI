@@ -1,0 +1,51 @@
+Lesson 4 Answers
+
+1.  Merge va Append farqi
+
+-   Merge – ikki jadvalni birlashtiradi (qo‘shma ustun asosida).
+-   Append – ustunlari bir xil bo‘lgan jadvallarni bir-birining ostiga
+    qo‘shadi.
+
+2.  Full Name ustunini bo‘lish
+
+-   Transform → Split Column → By Delimiter (bo‘sh joy “Space”
+    bo‘yicha).
+
+3.  Pivot Columns
+
+-   Ustundagi qiymatlarni yangi ustunlarga aylantirish uchun
+    ishlatiladi. Masalan, “Product”ni pivot qilib, “Quantity”ni
+    yig‘indisi sifatida olish.
+
+4.  Undo Step
+
+-   Applied Steps panelida keraksiz qadamni o‘chirish yoki “Ctrl+Z”
+    ishlatish.
+
+5.  Reference va Duplicate farqi
+
+-   Duplicate – butunlay nusxa (mustaqil query).
+-   Reference – bog‘langan nusxa (asosiy querydagi o‘zgarishlarga ta’sir
+    qiladi).
+
+6.  Fill Down
+
+-   Bo‘sh (null) kataklarni yuqoridagi qiymat bilan to‘ldirish.
+
+7.  Extract Domain from Email
+
+-   Transform → Extract → Text After Delimiter → “@” belgisi.
+
+8.  try…otherwise
+
+-   Xatolik bo‘lsa, muqobil qiymat qo‘yish. Masalan: try [A] / [B]
+    otherwise 0
+
+9.  Function to clean phone numbers
+
+-   M function yoziladi → Text.Remove([Phone], {“-”,” “}).
+
+10. Optimallashtirish
+
+-   Ortiqcha bosqichlarni o‘chirish, bir nechta Transform’ni bitta
+    bosqichda bajarish, kerakmas ustunlarni erta olib tashlash.
